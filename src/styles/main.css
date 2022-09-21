@@ -74,7 +74,7 @@ a {
 
 .overview {
     display: flex;
-    justify-content: space-between;
+    gap: 10%;
     padding-top: 30px;
     padding-bottom: 70px;
 }
@@ -108,13 +108,13 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     padding-bottom: 80px;
 }
 
 .i-header {
     font-weight: 900;
     font-size: 36px;
-    align-self: center;
     margin-bottom: 40px;
     margin-top: 40px
 }
@@ -139,7 +139,8 @@ a {
 
 .i-imgs {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 20px
     
 }
 
