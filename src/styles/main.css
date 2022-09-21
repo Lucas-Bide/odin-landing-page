@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;900&display=swap');
+
+/* Meyer reset */
+html,body,div,span,applet,object,iframe,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,label,legend,p,blockquote,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}body{line-height:1;color:black;background:white;}:focus{outline:0;}table{border-collapse:collapse;border-spacing:0;}caption,th,td{text-align:left;font-weight:normal;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}ol,ul{list-style:none;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}blockquote:before,blockquote:after,q:before,q:after{content:"";}blockquote,q{quotes:"" "";}abbr,acronym{border:0;}
+
+
+.bg-white {
+    background-color: white;
+}
+
+.bg-blue {
+    background-color: #3882f6;
+}
+
+.bg-grey {
+    background-color: #e5e7eb;
+}
+
+.white-primary, button {
+    color: #f9faf8;
+}
+
+.white-secondary {
+    color: #e5e7eb;
+}
+
+.black-primary {
+    color: #1f2937;
+}
+
+
+body {
+    background-color: #1F2937;
+    font-family: 'Roboto', sans-serif;  
+}
+
+button {
+    border: none;
+    border-radius: 2px;
+    padding: 5px 20px;
+}
+
+.main-flex-item { /* left over name from when I used flex to make a scaffold */
+    padding: 0 100px;
+}
+
+header {
+    flex: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 50px;
+    min-height: 50px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.link {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.link:visited {
+    color: #f9faf8;
+}
+
+
+.overview {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.o-info {
+    width: 50%;
+    max-width: 50%;
+}
+
+.oi-header {
+    font-weight: 900; 
+    font-size: 48px;
+}
+
+.oi-desc {
+    font-size: 18px;
+    font-weight: 100;
+    margin: 10px 0;
+}
+
+.oi-img-box {
+    width: 50%;
+}
+
+.o-img-box img {
+    height: 220px;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.i-header {
+    font-weight: 900;
+    font-size: 36px;
+    align-self: center;
+    margin-bottom: 40px;
+    margin-top: 40px
+}
+
+.i-desc {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.card {
+    max-width: 150px;
+    text-align: center;
+}
+
+.i-img {
+    height: 150px;
+    width: 150px;
+
+    border-radius: 10px;
+    border: 2px solid #3882f6;
+}
+
+.i-imgs {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.quote-box {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.quote {
+    font-weight: 100;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.source {
+    font-size: 24px;
+    text-align: right;
+}
+
+.call {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.call-flex {
+    padding: 30px 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.call-info {
+    flex: 2;
+}
+
+.ci-header {
+    font-size: 24px;
+}
+
+.ci-desc {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.call-btn {
+    border: 2px solid #f9faf8;
+    border-radius: 5px;
+}
+
+footer {
+    flex: 0;
+    max-height: 40px;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
